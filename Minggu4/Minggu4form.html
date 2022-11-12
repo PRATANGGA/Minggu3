@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bisayuk.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formminggu4</title>
+    <link rel="stylesheet" href="minggu4form.css">
+</head>
+<body background="foto.jpg">
+    <div class="wrap">
+        <div class="container">
+
+            
+            <form action="form.php" method="POST" class="form" required></form>
+            <table cellpadding="10px">
+                
+                <tr>
+                    <td colspan="3"><center>Registrasi</center></td>
+                </tr>
+                <tr>
+                <td>Nama</td>
+                
+                <td colspan="3">:<input type="text" name="nama" placeholder="Nama Lengkap" /></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                
+                <td colspan="3">:<input type="text" name="username" placeholder="Username" /></td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir</td>
+                
+                <td colspan="3">:<input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                
+                <td colspan="3">:<input type="email" name="email" placeholder="Your email" /></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                
+                <td colspan="3">:<input type="password" name="Password" placeholder="Password" /></td>
+            </tr>
+            <tr>
+                <td name="jenis_kelamin">Jenis kelamin</td>
+                
+                <td colspan="">:
+                    <input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
+                    <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                
+                <td colspan="3">:<select>
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                </select></td>
+                
+            </tr>
+            <tr>
+                <td name="hobi">Hobi</td>
+                <td> :<input type="checkbox" id="Ngoding"><label for="Ngoding">Ngoding</label>
+                    <input type="checkbox" id="Berenang"><label for="Berenang">Berenang</label>
+                    <input type="checkbox" id="Membaca"><label for="Membaca">Membaca</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><center><input type="submit"></input type="submit" value="submit"></center></td>
+            </tr>
+            
+            
+            
+        </table> 
+    </div>
+    </div>
+
+    
+</body>
+</html>
